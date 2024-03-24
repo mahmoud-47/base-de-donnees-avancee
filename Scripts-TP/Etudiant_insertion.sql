@@ -1,0 +1,53 @@
+DELETE FROM Notation;
+DELETE FROM Epreuve;
+DELETE FROM Matiere;
+DELETE FROM Etudiant;
+
+INSERT INTO Etudiant VALUES (110, 'Dupont', 'Albert', '1980-06-01', 'Rue de Crimee', 69001, 'Lyon');
+INSERT INTO Etudiant VALUES (222, 'West', 'James', '1983-09-03', 'Studio', NULL, 'Hollywood');
+INSERT INTO Etudiant VALUES (300, 'Martin', 'Marie', '1988-06-05', 'Rue des Acacias', 69130, 'Ecully');
+INSERT INTO Etudiant VALUES (421, 'Durand', 'Gaston', '1980-11-15', 'Rue de la Meuse', 69008, 'Lyon');
+INSERT INTO Etudiant VALUES (575, 'Titgoutte', 'Justine', '1985-02-28', 'Chemin du chateau', 69630, 'Chaponost');
+INSERT INTO Etudiant VALUES (667, 'Dupond', 'Noemie', '1987-09-18', 'Rue de Dole', 69007, 'Lyon');
+INSERT INTO Etudiant VALUES (999, 'Phantom', 'Marcel', '1960-01-30', NULL, NULL, NULL);
+
+INSERT INTO Matiere VALUES ('STA', 'Statistique', 0.3);
+INSERT INTO Matiere VALUES ('INF', 'Informatique', 0.4);
+INSERT INTO Matiere VALUES ('ECO', 'Econometrie', 0.2);
+
+INSERT INTO Epreuve VALUES (11031, '2003-12-15', 'Salle 191L', 'STA');
+INSERT INTO Epreuve VALUES (11032, '2004-04-01', 'Amphi G', 'STA');
+INSERT INTO Epreuve VALUES (21031, '2003-10-30', 'Salle 191L', 'INF');
+INSERT INTO Epreuve VALUES (21032, '2004-6-01', 'Salle 192L', 'INF');
+INSERT INTO Epreuve VALUES (31030, '2004-06-02', 'Salle 05R', 'ECO');
+
+INSERT INTO Notation VALUES (110, 11031, 10);
+INSERT INTO Notation VALUES (110, 11032, 11.5);
+INSERT INTO Notation VALUES (110, 21031, 8.5);
+INSERT INTO Notation VALUES (110, 21032, NULL);
+INSERT INTO Notation VALUES (110, 31030, 13);
+INSERT INTO Notation VALUES (222, 11031, 9);
+INSERT INTO Notation VALUES (222, 11032, 14);
+INSERT INTO Notation VALUES (222, 21031, 12);
+INSERT INTO Notation VALUES (222, 21032, 16);
+INSERT INTO Notation VALUES (222, 31030, 20);
+INSERT INTO Notation VALUES (300, 11031, 14);
+INSERT INTO Notation VALUES (300, 11032, 20);
+INSERT INTO Notation VALUES (300, 21031, 20);
+INSERT INTO Notation VALUES (300, 21032, 13.5);
+INSERT INTO Notation VALUES (300, 31030, 16);
+INSERT INTO Notation VALUES (421, 11031, 5.5);
+INSERT INTO Notation VALUES (421, 11032, 7);
+INSERT INTO Notation VALUES (421, 21031, 1.5);
+INSERT INTO Notation VALUES (421, 21032, NULL);
+INSERT INTO Notation VALUES (421, 31030, 10);
+INSERT INTO Notation VALUES (575, 11031, 13);
+INSERT INTO Notation VALUES (575, 11032, 9);
+INSERT INTO Notation VALUES (575, 21031, 12.5);
+INSERT INTO Notation VALUES (575, 21032, 14);
+INSERT INTO Notation VALUES (575, 31030, 7);
+INSERT INTO Notation VALUES (667, 11031, 16);
+INSERT INTO Notation VALUES (667, 11032, 20);
+INSERT INTO Notation VALUES (667, 21031, 8.5);
+INSERT INTO Notation VALUES (667, 21032, 9.5);
+INSERT INTO Notation VALUES (667, 31030, NULL);

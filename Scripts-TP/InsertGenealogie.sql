@@ -1,0 +1,32 @@
+insert into Personne (numPers, nomPers, prenomPers, sexePers) values(1, 'Diop','Anna','F');
+insert into Personne (numPers, nomPers, prenomPers, sexePers) values(2, 'Diallo','Aly','M');
+insert into Personne (numPers, nomPers, prenomPers, sexePers) values(3, 'Sarr','Elimane','M');
+insert into Personne (numPers, nomPers, prenomPers, sexePers) values(4, 'Diatta','Marie','F');
+insert into Personne (numPers, nomPers, prenomPers, sexePers) values(5, 'Diallo','Amadou','M');
+insert into Personne (numPers, nomPers, prenomPers, sexePers) values(6, 'Sarr','Daouda','M');
+insert into Personne (numPers, nomPers, prenomPers, sexePers) values(7, 'Boye','Alimatou','F');
+insert into Personne (numPers, nomPers, prenomPers, sexePers) values(8, 'Diallo','Pape','M');
+insert into Personne (numPers, nomPers, prenomPers, sexePers) values(9, 'Diallo','Ouly','F');
+insert into Personne (numPers, nomPers, prenomPers, sexePers) values(10, 'Sarr','Fatou','F');
+insert into Personne (numPers, nomPers, prenomPers, sexePers) values(11, 'Sarr','Babou','M');
+insert into Personne (numPers, nomPers, prenomPers, sexePers) values(12, 'Sarr','Mamadou','M');
+insert into Personne (numPers, nomPers, prenomPers, sexePers) values(13, 'Diallo','Lamarana','M');
+insert into Personne (numPers, nomPers, prenomPers, sexePers) values(14, 'Diallo','Maty','F');
+
+insert into PereDe (numPersEnfant, numPersPere) values(5, 2);
+insert into PereDe (numPersEnfant, numPersPere) values(8, 5);
+insert into PereDe (numPersEnfant, numPersPere) values(9, 5);
+insert into PereDe (numPersEnfant, numPersPere) values(13, 8);
+insert into PereDe (numPersEnfant, numPersPere) values(6, 3);
+insert into PereDe (numPersEnfant, numPersPere) values(10, 6);
+insert into PereDe (numPersEnfant, numPersPere) values(11, 6);
+insert into PereDe (numPersEnfant, numPersPere) values(12, 6);
+
+insert into MereDe (numPersEnfant, numPersMere) values(5, 1);
+insert into MereDe (numPersEnfant, numPersMere) values(8, 4);
+insert into MereDe (numPersEnfant, numPersMere) values(9, 4);
+insert into MereDe (numPersEnfant, numPersMere) values(10, 4);
+insert into MereDe (numPersEnfant, numPersMere) values(11, 4);
+insert into MereDe (numPersEnfant, numPersMere) values(12, 4);
+insert into MereDe (numPersEnfant, numPersMere) values(13, 7);
+insert into MereDe (numPersEnfant, numPersMere) values(14, 9);

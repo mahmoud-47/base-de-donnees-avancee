@@ -1,0 +1,18 @@
+SELECT COALESCE(NULL, 'DEFEAUT');
+-- select * from livres where emprunte=true;
+-- select * from emprunter;
+-- INSERT INTO emprunter (NL, datemp, dureeMax, dateRet, NA) VALUES (4,'2020-01-01',19,NULL,2);
+-- delete from emprunter where datemp = '2020-01-01';
+-- UPDATE emprunter SET dateRet=current_date WHERE NL=2 AND NA=28;
+-- UPDATE emprunter SET dateRet=null WHERE NL=1 AND NA=28;
+-- SELECT initcap('mhd');
+-- INSERT INTO adherents VALUES  (34,'MODOU','NDIAYE','16 rue de la République, 75010 Paris','0145279274');
+-- SELECT * FROM adherents;
+-- SELECT retard(1);
+-- SELECT emprunts_adh(2);
+-- SELECT LES_PRODUITS_V2();
+-- SELECT * FROM exemplaires_dispo('Narcisse et Goldmund');
+-- SELECT * FROM titres_auteur('Lewis CAROLL');
+-- SELECT * FROM titres_auteur('Gilbert HOTTOIS');
+-- SELECT * FROM titres_auteur('Kenneth WHITE');
+-- SELECT enregistrer_emprunt(1,  current_date+1, 21,       current_date+15,  4);
